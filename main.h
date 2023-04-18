@@ -2,6 +2,7 @@
 #define _MAIN_H_
 
 int main(int ac, char **av);
-int main(int argc, char *argv[])
+int main(void);
+int main(int ac, char **av, char **env);
 
 #endif
